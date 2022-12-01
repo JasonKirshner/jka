@@ -31,7 +31,7 @@
 .service-image-wrapper::after {
   content: '';
   display: block;
-  padding-bottom: 75%;
+  padding-bottom: 50%;
 }
 
 .service-title {
