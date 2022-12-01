@@ -6,7 +6,7 @@
 .hero::before {
   content: '';
   z-index: 2;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.5);
   width: 100%;
   position: absolute;
   height: 100%;
@@ -26,4 +26,14 @@
   height: 100%;
   object-fit: cover;
   z-index: 1;
+}
+
+.hero-title {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+  color: white;
 }
