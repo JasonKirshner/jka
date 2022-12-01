@@ -15,10 +15,10 @@ const Navigation = () => {
         <nav>
           <ul class="nav-items">
             <li class="nav-item">
-              <Link to="/" className='nav-item-link'>Home</Link>
+              <Link to="/" className='nav-item-link h3'>Home</Link>
             </li>
-            <li>
-              <Link to="/about-me" className='nav-item-link'>About Me</Link>
+            <li class="nav-item">
+              <Link to="/about-me" className='nav-item-link h3'>About Me</Link>
             </li>
           </ul>
         </nav>
