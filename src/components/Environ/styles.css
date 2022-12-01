@@ -1,6 +1,26 @@
+.environ-title {
+  text-align: center;
+}
+
+.environ-container {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.environ-content {
+  max-width: 600px;
+}
+
+.environ-description {
+  margin-top: 20px;
+}
+
 .environ-image-wrapper {
   position: relative;
   width: 100%;
+  max-width: 500px;
 }
 
 .environ-image {
