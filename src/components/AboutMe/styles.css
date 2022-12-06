@@ -1,0 +1,17 @@
+.text-block {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.text-block > p:not(:first-child) {
+  margin-top: 10px;
+}
+
+.text-block > h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.attribute {
+  font-style: italic;
+}
