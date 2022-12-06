@@ -11,6 +11,7 @@
 
 .environ-content {
   max-width: 600px;
+  margin-left: 20px;
 }
 
 .environ-description {
@@ -35,5 +36,5 @@
 .environ-image-wrapper::after {
   content: '';
   display: block;
-  padding-bottom: 75%;
+  padding-bottom: 87%;
 }
