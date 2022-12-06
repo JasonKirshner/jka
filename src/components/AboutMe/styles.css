@@ -1,17 +1,49 @@
-.text-block {
-  max-width: 600px;
-  margin: 0 auto;
+.aboutme-wrapper {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.text-block > p:not(:first-child) {
+.aboutme-image-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+}
+
+.aboutme-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.aboutme-image-wrapper::after {
+  content: '';
+  display: block;
+  padding-bottom: 120%;
+}
+
+.aboutme-text {
+  margin-left: 20px;
+  max-width: 600px;
+}
+
+.aboutme-text > p:not(:first-child) {
   margin-top: 10px;
 }
 
-.text-block > h1 {
+.aboutme-text > h1 {
   margin-bottom: 20px;
   text-align: center;
 }
 
-.attribute {
+.aboutme-attribute {
   font-style: italic;
+}
+
+.aboutme-title {
+  text-align: center;
 }
