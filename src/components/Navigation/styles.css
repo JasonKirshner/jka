@@ -26,6 +26,10 @@ header {
   display: flex;
   align-items: center;
   margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 .title-logo {
@@ -60,6 +64,11 @@ nav {
 .nav-item-link {
   text-decoration: none;
   color: black;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  margin: 0;
 }
 
 .nav-item-link::after {

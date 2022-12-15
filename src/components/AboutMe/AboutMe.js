@@ -2,7 +2,7 @@ import './styles.css'
 
 const AboutMe = () => {
   return (
-    <div class="container">
+    <div class="about-me container">
       <h2 class="aboutme-title">About Me</h2>
       <div class="aboutme-wrapper">
         <div class="aboutme-image-wrapper">

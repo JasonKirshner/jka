@@ -4,16 +4,17 @@ import './styles.css'
 
 const Services = () => {
   return (
-    <div class="container">
+    <div class="services-container container">
       <h2 class="services-title">SERVICES</h2>
       <div class="services">
-        {servicesArr.services.map(service =>
+        {servicesArr.services.map((service, i) =>
           (
-            <Service
+          <Service
               image={service.image} 
               title={service.title}
               description={service.description}
               cost={service.cost}
+              key={i}
             />
           )
         )}
