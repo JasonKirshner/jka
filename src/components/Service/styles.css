@@ -28,6 +28,10 @@
   object-fit: cover;
 }
 
+.LazyLoad.is-visible .service-image {
+  animation: .3s ease-in load-image;
+}
+
 .service-image-wrapper::after {
   content: '';
   display: block;

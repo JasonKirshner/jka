@@ -1,4 +1,5 @@
 import './styles.css'
+import LazyLoad from 'react-lazy-load'
 
 const Environ = () => {
   return (
@@ -6,7 +7,9 @@ const Environ = () => {
       <h2 class="environ-title">ENVIRON</h2>
       <div class="environ-container">
         <div class="environ-image-wrapper">
-          <img class="environ-image" src="../../images/environ.jpeg" alt="Environ products" />
+          <LazyLoad offset={-100}>
+            <img class="environ-image image" src="../../images/environ.jpeg" alt="Environ products" />
+          </LazyLoad>
         </div>
         <div class="environ-content">
           <h3 class="environ-subtitle">SCIENTIFICALLY DRIVEN RESULTS FOR IMPROVED SKIN.</h3>

@@ -4,7 +4,7 @@
 }
 
 header {
-  padding: 15px 25px;
+  padding: 10px 25px;
   width: calc(100% - 50px);
   position: fixed;
   top: 0;
@@ -32,8 +32,23 @@ header {
   cursor: pointer;
 }
 
+.header-title-text {
+  margin-left: 20px;
+}
+
 .title-logo {
-  width: 80px;
+  width: 60px;
+  overflow: visible;
+}
+
+.title-logo.animated path {
+  animation: .2s ease-in-out lotus-bounce-out;
+  transform-origin: bottom;
+}
+
+.title:hover .title-logo.animated path {
+  animation: .3s ease-in-out lotus-bounce-in;
+  animation-fill-mode: forwards;
 }
 
 .title-text {
@@ -87,4 +102,28 @@ nav {
 
 .nav-item:hover .nav-item-link::after {
   transform: scaleX(1);
+}
+
+@keyframes lotus-bounce-in {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+  
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes lotus-bounce-out {
+  to {
+    transform: scale(1);
+  }
+
+  from {
+    transform: scale(1.1);
+  }
 }

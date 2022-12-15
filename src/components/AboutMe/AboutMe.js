@@ -1,4 +1,5 @@
 import './styles.css'
+import LazyLoad from 'react-lazy-load'
 
 const AboutMe = () => {
   return (
@@ -6,7 +7,9 @@ const AboutMe = () => {
       <h2 class="aboutme-title">About Me</h2>
       <div class="aboutme-wrapper">
         <div class="aboutme-image-wrapper">
-          <img class="aboutme-image" src="/images/self_portrait.jpeg" alt="Self Portrait for About Me section"/>
+          <LazyLoad offset={-200}>
+            <img class="aboutme-image image" src="/images/self_portrait.jpeg" alt="Self Portrait for About Me section"/>
+          </LazyLoad>
         </div>
         <div class="aboutme-text">
           <p>
