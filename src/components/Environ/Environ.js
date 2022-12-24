@@ -6,11 +6,6 @@ const Environ = () => {
     <div class="environ container">
       <h2 class="environ-title">ENVIRON</h2>
       <div class="environ-container">
-        <div class="environ-image-wrapper">
-          <LazyLoad offset={-300}>
-            <img class="environ-image image" src="../../images/environ.jpeg" alt="Environ products" />
-          </LazyLoad>
-        </div>
         <div class="environ-content">
           <h3 class="environ-subtitle">SCIENTIFICALLY DRIVEN RESULTS FOR IMPROVED SKIN.</h3>
           <p class="environ-description">
@@ -35,6 +30,11 @@ const Environ = () => {
             skincare lines on the market today do not follow these standards and manufacture their
             products with preservatives and perfumes, making Environ especially unique.
           </p>
+        </div>
+        <div class="environ-image-wrapper">
+          <LazyLoad offset={-300}>
+            <img class="environ-image image" src="../../images/environ.jpeg" alt="Environ products" />
+          </LazyLoad>
         </div>
       </div>
     </div>
