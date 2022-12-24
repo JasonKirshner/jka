@@ -3,7 +3,13 @@
 }
 
 .services {
-  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+@media(max-width: 1259px) {
+  .services {
+    justify-content: center;
+  } 
 }

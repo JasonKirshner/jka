@@ -6,13 +6,6 @@
   margin-left: 40px;
 }
 
-.service:nth-child(3n + 1) {
-  margin-left: 0;
-}
-
-.service:nth-child(n + 4) {
-  margin-top: 40px;
-}
 
 .service-image-wrapper {
   position: relative;
@@ -37,6 +30,7 @@
 
 .service-title {
   margin-top: 10px;
+  color: #9c8c58;
 }
 
 .service-description {
@@ -45,5 +39,40 @@
 
 .service-cost {
   margin-top: 10px;
-  color: #9c8c58;
+}
+
+@media(min-width: 1260px) {
+
+  .service:nth-child(3n + 1) {
+    margin-left: 0;
+  }
+
+  .service:nth-child(n + 4) {
+    margin-top: 40px;
+  }
+}
+
+@media(max-width: 1259px) and (min-width: 872px){
+  .service {
+    max-width: 390px;
+  }
+
+  .service:nth-child(n + 3) {
+    margin-top: 40px;
+  }
+
+  .service:nth-child(2n + 1) {
+    margin-left: 0;
+  }
+}
+
+@media(max-width: 871px) {
+  .service {
+    max-width: 500px;
+    margin-left: 0;
+  }
+
+  .service:not(:first-child) {
+    margin-top: 40px;
+  }
 }

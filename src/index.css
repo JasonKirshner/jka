@@ -92,3 +92,9 @@ button {
     margin: 68px 0 0;
   }
 }
+
+@media(max-width: 871px) {
+  .container {
+    margin-top: 70px;
+  }
+}
