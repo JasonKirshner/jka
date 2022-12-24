@@ -36,14 +36,6 @@ const AboutMe = () => {
             companies in the industry.
           </p>
           <p>
-            With a focus on treating diverse skin conditions, I provide my clients with a unique
-            hands-on experience that addresses the constant changes that your skin encounters
-            over the years. Changes that, if left untreated, can take a toll on your confidence and
-            overall health. I have developed customized facials for all skin types using modalities
-            such as Micro-current, LED light therapy, Dermaplaning, Galvanic, Chemical Peels and
-            Microdermabrasion.
-          </p>
-          <p>
             I thank you in advance for the opportunity to assist you on your journey toward a more
             beautiful, healthy you!
           </p>
