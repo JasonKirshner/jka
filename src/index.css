@@ -60,15 +60,17 @@ button {
 }
 
 .LazyLoad.is-visible .image {
-  animation: .3s ease-in load-image;
+  animation: .7s cubic-bezier(0,.6,.44,.99) load-image;
 }
 
 @keyframes load-image {
   from {
+    transform: scale(1.3);
     opacity: 0;
   }
   
   to {
+    transform: scale(1);
     opacity: 1;
   }
 }

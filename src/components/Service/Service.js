@@ -5,7 +5,7 @@ const Service = ({ image, title, description, cost }) => {
   return (
     <div class="service">
       <div class="service-image-wrapper">
-        <LazyLoad offset={-200}>
+        <LazyLoad offset={-250}>
           <img class="service-image image" src={image} alt="Service" />
         </LazyLoad>
       </div>

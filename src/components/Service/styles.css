@@ -17,6 +17,7 @@
 .service-image-wrapper {
   position: relative;
   width: 100%;
+  overflow: hidden;
 }
 
 .service-image {
@@ -26,10 +27,6 @@
   top: 0;
   left: 0;
   object-fit: cover;
-}
-
-.LazyLoad.is-visible .service-image {
-  animation: .3s ease-in load-image;
 }
 
 .service-image-wrapper::after {

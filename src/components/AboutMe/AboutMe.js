@@ -7,7 +7,7 @@ const AboutMe = () => {
       <h2 class="aboutme-title">About Me</h2>
       <div class="aboutme-wrapper">
         <div class="aboutme-image-wrapper">
-          <LazyLoad offset={-200}>
+          <LazyLoad offset={-300}>
             <img class="aboutme-image image" src="/images/self_portrait.jpeg" alt="Self Portrait for About Me section"/>
           </LazyLoad>
         </div>

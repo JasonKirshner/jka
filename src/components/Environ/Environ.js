@@ -7,7 +7,7 @@ const Environ = () => {
       <h2 class="environ-title">ENVIRON</h2>
       <div class="environ-container">
         <div class="environ-image-wrapper">
-          <LazyLoad offset={-100}>
+          <LazyLoad offset={-300}>
             <img class="environ-image image" src="../../images/environ.jpeg" alt="Environ products" />
           </LazyLoad>
         </div>
