@@ -74,3 +74,19 @@ button {
     opacity: 1;
   }
 }
+
+@media(max-width: 968px) {
+  h1, .h1 {
+    font-size: 56px;
+  }
+
+  .h3, h3 {
+    font-size: 18px;
+  }
+
+  .p-cursive {
+    font-size: 24px;
+  }
+
+
+}
