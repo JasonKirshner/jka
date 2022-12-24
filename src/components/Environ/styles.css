@@ -39,3 +39,24 @@
   display: block;
   padding-bottom: 87%;
 }
+
+@media(max-width: 1170px) {
+  .environ-content {
+    max-width: 450px;
+  }
+}
+
+@media(max-width: 968px) {
+  .environ-content {
+    max-width: 550px;
+    margin-top: 40px;
+  }
+
+  .environ-image-wrapper {
+    margin-left: 0;
+  }
+
+  .environ-container {
+    flex-direction: column-reverse;
+  }
+}
