@@ -12,8 +12,8 @@ function App() {
       <Navigation />
       <Hero />
       <div class="main-content">
-        <AboutMe />
         <Services />
+        <AboutMe />
         <Environ />
       </div>
       <Footer />
