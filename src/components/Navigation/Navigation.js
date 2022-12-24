@@ -59,9 +59,6 @@ const Navigation = () => {
         <nav>
           <ul class="nav-items">
             <li class="nav-item">
-              <button onClick={scrollToTop} className='nav-item-link h3'>Home</button>
-            </li>
-            <li class="nav-item">
               <button onClick={scrollToAboutMe} className='nav-item-link h3'>About Me</button>
             </li>
             <li class="nav-item">
