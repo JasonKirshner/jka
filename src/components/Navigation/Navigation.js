@@ -74,8 +74,16 @@ const Navigation = () => {
               <button onClick={scrollToEnviron} className='nav-item-link h3'>Environ</button>
             </li>
           </ul>
+          <a href="https://www.vagaro.com//Users/BusinessWidget.aspx?enc=MMLjhIwJMcwFQhXLL7ifVHWEqyT0Rd47RdMT3fpHGerCbUx7czWUhOS7T1wVvue4Y5h57QxCx7mc81cwU7+xsiEMEaX2f+IhV9hMknX/8KVUflmsbInhCblQ0+NRi59XFNSZgfQUeOqEuXpLZK5E3Asa0snf49Ao4mzdrYFT3Poykt8lRcmUW+K0jC6s8xDZOiMNuIW0LVjp35bmOD1LV8Hpr3TwS0lYgqFazyCguGNRWvM3fr9GcZOlxkXXGHQGrfMpofyYnEbuIy01lzJAGx952h5i1dDT/Drht68N8JVsvJi/7gZaDoz6KMX9zzdpRQmAS5gwd9+97YF6e9y7Y8cZHDCC6m1rxZdFZNLp4iw="
+            target="_blank"
+            rel="noreferrer external preload prerender"
+            className="booknow-btn booknow-btn-desktop">Book Now</a>
         </nav>
-        <div className="nav-hamburger">
+        <div className="nav-menu-mobile-wrapper">
+          <a href="https://www.vagaro.com//Users/BusinessWidget.aspx?enc=MMLjhIwJMcwFQhXLL7ifVHWEqyT0Rd47RdMT3fpHGerCbUx7czWUhOS7T1wVvue4Y5h57QxCx7mc81cwU7+xsiEMEaX2f+IhV9hMknX/8KVUflmsbInhCblQ0+NRi59XFNSZgfQUeOqEuXpLZK5E3Asa0snf49Ao4mzdrYFT3Poykt8lRcmUW+K0jC6s8xDZOiMNuIW0LVjp35bmOD1LV8Hpr3TwS0lYgqFazyCguGNRWvM3fr9GcZOlxkXXGHQGrfMpofyYnEbuIy01lzJAGx952h5i1dDT/Drht68N8JVsvJi/7gZaDoz6KMX9zzdpRQmAS5gwd9+97YF6e9y7Y8cZHDCC6m1rxZdFZNLp4iw="
+            target="_blank"
+            rel="noreferrer external preload prerender"
+            className="booknow-btn booknow-btn-mobile">Book Now</a>
           <Hamburger toggle={toggleMenu} toggled={isMenuOpen} direction="right" color="#9c8c58" label="Show Menu" />
         </div>
       </div>

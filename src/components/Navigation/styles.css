@@ -56,7 +56,7 @@ header {
   margin-left: 20px;
 }
 
-nav {
+.nav-menu {
   display: flex;
 }
 
@@ -100,6 +100,19 @@ nav {
   height: 1px;
 }
 
+.nav-menu-mobile-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.booknow-btn {
+  padding: 10px 20px;
+  background-color: #9c8b58;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
 @keyframes lotus-bounce-in {
   0% {
     transform: scale(1);
@@ -125,7 +138,20 @@ nav {
 }
 
 @media(min-width: 967px) {
-  .nav-hamburger {
+  .booknow-btn {
+    margin-left: 30px;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .booknow-btn-mobile {
+    display: none;
+  }
+
+  .booknow-btn:hover {
+    background-color: rgb(156, 139, 88, 0.9);
+  }
+
+  .nav-menu-mobile-wrapper {
     display: none;
   }
 
@@ -135,6 +161,10 @@ nav {
 }
 
 @media(max-width: 968px) {
+  .booknow-btn-desktop {
+    display: none;
+  }
+
   .nav-menu {
     position: absolute;
     top: 100%;
@@ -145,6 +175,8 @@ nav {
     transition: max-height 0.4s ease-in-out;
     background-color: white;
     box-shadow: 0 5px 8px rgba(0,0,0,0.2);
+    flex-direction: column;
+    align-items: center;
   }
 
   .nav-items {
@@ -161,6 +193,10 @@ nav {
   }
 
   .nav-menu.nav-menu-open {
-    max-height: 267px;
+    max-height: 326px;
+  }
+
+  .booknow-btn {
+    margin-right: 30px;
   }
 }
