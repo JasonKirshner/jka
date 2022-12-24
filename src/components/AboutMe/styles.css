@@ -23,7 +23,7 @@
 .aboutme-image-wrapper::after {
   content: '';
   display: block;
-  padding-bottom: 120%;
+  padding-bottom: 100%;
 }
 
 .aboutme-text {
