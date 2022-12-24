@@ -100,10 +100,6 @@ nav {
   height: 1px;
 }
 
-.nav-item:hover .nav-item-link::after {
-  transform: scaleX(1);
-}
-
 @keyframes lotus-bounce-in {
   0% {
     transform: scale(1);
@@ -125,5 +121,46 @@ nav {
 
   from {
     transform: scale(1.1);
+  }
+}
+
+@media(min-width: 967px) {
+  .nav-hamburger {
+    display: none;
+  }
+
+  .nav-item:hover .nav-item-link::after {
+    transform: scaleX(1);
+  }
+}
+
+@media(max-width: 968px) {
+  .nav-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out;
+    background-color: white;
+    box-shadow: 0 5px 8px rgba(0,0,0,0.2);
+  }
+
+  .nav-items {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+  }
+
+  .nav-item:not(:first-child) {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  .nav-menu.nav-menu-open {
+    max-height: 267px;
   }
 }
