@@ -38,3 +38,15 @@
   z-index: 2;
   color: white;
 }
+
+@media(max-width: 967px) {
+  .hero::after {
+    padding-bottom: 50%;
+  }
+}
+
+@media(max-width: 600px) {
+  .hero::after {
+    padding-bottom: 80%;
+  }
+}
