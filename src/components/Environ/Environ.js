@@ -1,7 +1,10 @@
 import './styles.css'
-import LazyLoad from 'react-lazy-load'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+import { useState } from 'react'
 
 const Environ = () => {
+  const [isLoaded, setIsLoaded] = useState(false)
+
   return (
     <div className="environ container">
       <h2 className="environ-title">ENVIRON</h2>
@@ -31,10 +34,14 @@ const Environ = () => {
             products with preservatives and perfumes, making Environ especially unique.
           </p>
         </div>
-        <div className="environ-image-wrapper">
-          <LazyLoad offset={-300}>
-            <img className="environ-image image" src="../../images/environ.jpeg" alt="Environ products" />
-          </LazyLoad>
+        <div className={"environ-image-wrapper" + (isLoaded ? ' is-loaded' : '')}>
+          <LazyLoadImage
+            className="environ-image image"
+            src="../../images/environ.jpeg"
+            alt="Environ products"
+            beforeLoad={() => setIsLoaded(true)}
+            threshold={-200}
+          />
         </div>
       </div>
     </div>

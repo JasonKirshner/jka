@@ -1,17 +1,24 @@
 import './styles.css'
-import LazyLoad from 'react-lazy-load'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+import { useState } from 'react'
 
 const AboutMe = () => {
+  const [isLoaded, setIsLoaded] = useState(false)
+
   return (
-    <div class="about-me container">
-      <h2 class="aboutme-title">MEET JOANNA</h2>
-      <div class="aboutme-wrapper">
-        <div class="aboutme-image-wrapper">
-          <LazyLoad offset={-300}>
-            <img class="aboutme-image image" src="/images/self_portrait.jpeg" alt="Self Portrait for About Me section"/>
-          </LazyLoad>
+    <div className="about-me container">
+      <h2 className="aboutme-title">MEET JOANNA</h2>
+      <div className="aboutme-wrapper">
+        <div className={"aboutme-image-wrapper" + (isLoaded ? ' is-loaded' : '')}>
+          <LazyLoadImage
+            className="aboutme-image image"
+            src="/images/self_portrait.jpeg" 
+            alt="Self Portrait for About Me section" 
+            beforeLoad={() => setIsLoaded(true)}
+            threshold={-200}
+          />
         </div>
-        <div class="aboutme-text">
+        <div className="aboutme-text">
           <p>
             As a licensed esthetician with numerous years of experience in the beauty industry, my
             focus has always been on helping my clients achieve and maintain beautiful, healthy
