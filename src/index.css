@@ -97,3 +97,9 @@ button {
     margin-top: 70px;
   }
 }
+
+@media(max-width: 599px) {
+  h1, .h1 {
+    font-size: 40px;
+  }
+}
