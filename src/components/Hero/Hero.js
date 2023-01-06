@@ -3,11 +3,11 @@ import LazyLoad from 'react-lazy-load'
 
 const Hero = () => {
   return (
-    <div class="hero">
+    <div className="hero">
       <LazyLoad>
-        <img class="hero-image image" src='/images/hero.JPG' alt="Spa room" />
+        <img className="hero-image image" src='/images/hero.JPG' alt="Spa room" />
       </LazyLoad>
-      <h1 class="hero-title">JOANNA KAY<br/>AESTHETICS</h1>
+      <h1 className="hero-title">JOANNA KAY<br/>AESTHETICS</h1>
     </div>
   )
 }

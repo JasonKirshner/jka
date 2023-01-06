@@ -3,12 +3,12 @@ import LazyLoad from 'react-lazy-load'
 
 const Environ = () => {
   return (
-    <div class="environ container">
-      <h2 class="environ-title">ENVIRON</h2>
-      <div class="environ-container">
-        <div class="environ-content">
-          <h3 class="environ-subtitle">SCIENTIFICALLY DRIVEN RESULTS FOR IMPROVED SKIN.</h3>
-          <p class="environ-description">
+    <div className="environ container">
+      <h2 className="environ-title">ENVIRON</h2>
+      <div className="environ-container">
+        <div className="environ-content">
+          <h3 className="environ-subtitle">SCIENTIFICALLY DRIVEN RESULTS FOR IMPROVED SKIN.</h3>
+          <p className="environ-description">
             Environ creates scientifically researched and developed skin care products that make a
             lasting difference in the appearance of the skin. Environ believes beautiful, healthy-looking
             skin should be the norm and not the exception. Their products are ideal for everyone –
@@ -31,9 +31,9 @@ const Environ = () => {
             products with preservatives and perfumes, making Environ especially unique.
           </p>
         </div>
-        <div class="environ-image-wrapper">
+        <div className="environ-image-wrapper">
           <LazyLoad offset={-300}>
-            <img class="environ-image image" src="../../images/environ.jpeg" alt="Environ products" />
+            <img className="environ-image image" src="../../images/environ.jpeg" alt="Environ products" />
           </LazyLoad>
         </div>
       </div>

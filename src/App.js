@@ -12,7 +12,7 @@ function App() {
     <>
       <Navigation />
       <Hero />
-      <div class="main-content">
+      <div className="main-content">
         <Services />
         <AboutMe />
         <Instagram />

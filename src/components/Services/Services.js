@@ -4,9 +4,9 @@ import './styles.css'
 
 const Services = () => {
   return (
-    <div class="services-container container">
-      <h2 class="services-title">SERVICES</h2>
-      <div class="services">
+    <div className="services-container container">
+      <h2 className="services-title">SERVICES</h2>
+      <div className="services">
         {servicesArr.services.map((service, i) =>
           (
           <Service
