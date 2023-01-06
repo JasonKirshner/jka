@@ -1,19 +1,19 @@
 {
   "services": [
     {
-      "image": "../../images/service1.jpg",
+      "image": "../../images/service1.jpeg",
       "title": "Skincare Assessment / Consultation",
       "description": "A 30-minute skin evaluation to determine one’s skin health and necessary regiments for optimal skin care. You will receive a prescription for clinical skincare and a treatment plan for future services which may include Environ facials, peels, and other modalities",
       "cost": "30 Minutes/$50.00 (applied to your first treatment as a courtesy discount)"
     },
     {
-      "image": "../../images/service2.jpeg",
+      "image": "../../images/service2.png",
       "title": "Environ's Signature Customized Facial",
       "description": "A signature facial that is customized for your specific skin type and unique goals. Whether you are seeking a more radiant glow, purification of the skin, the reduction of fine lines, scarring or pigmentation, the Environ Customized Facial will address your skins specific needs. The Environ Facial utilizes medical grade-vitamin rich Environ products which rejuvenates the skin and promotes a brighter, more even skin tone. This facial includes a thorough pre-cleanse, exfoliation, light extractions, a soothing mask and Cryos stick application.",
       "cost": "60 Minutes/$165"
     },
     {
-      "image": "../../images/service3.jpeg",
+      "image": "../../images/service3.png",
       "title": "Dermaplaning Treatment",
       "description": "A gentle exfoliating method that uses a sterile butter blade to remove dead skin and vellus hair (i.e., peach fuzz) from the surface of the skin. A hydrating face mask will be applied after the treatment leaving you with a smooth, radiant glow.",
       "cost": "30 Minutes/$75"
@@ -37,37 +37,37 @@
       "cost": "75 Minutes/$189"
     },
     {
-      "image": "../../images/service7.jpeg",
+      "image": "../../images/service7.jpg",
       "title": "Microcurrent TriaWave Treatment",
       "description": "TriaWave Treatment enhances the delivery of specific nutrients through low frequency sound and pulsed iontophoresis. This treatment deeply penetrates Environ serums to dramatically enhance the look, feel and appearance of the skin. The Microcurrent targets muscle strength to lift the skin and stimulates muscles to reveal a tighter, youthful appearance.",
       "cost": "60 Minutes $180 or Series of 6/$599"
     },
     {
-      "image": "../../images/service8.jpeg",
+      "image": "../../images/service8.jpg",
       "title": "Environ’s Growth Factor Facial",
       "description": "Utilizing physics and skin physiology, two different modalities are applied to produce a cascade of responses in tissues that enhance natural skin repair and rejuvenation. We begin with Environ’s cool peel (Lactic or TCA) technology, which slowly and gently encourages the deeper layers of skin to release growth factors. Followed with a low frequency sonophoresis and pulsed iontophoresis that deliver essential vitamins and peptides that stimulate new collagen and elastin deposition. To complete the Environ Growth Facial, red light LED therapy is applied to further regenerate, heal, and even your skin tone, as well as reduce inflammation.",
       "cost": "75 Minutes/$265"
     },
     {
-      "image": "../../images/service9.jpeg",
+      "image": "../../images/service9.jpg",
       "title": "Revitalizing Vitamin C Facial",
       "description": "Restore your skin’s radiance by infusing the skin with Vitamin C and powerful antioxidants to help brighten, firm, and improve signs of sun damage. Environ’s Vitamin C Peel can help reduce the appearance of dark spots. It also helps prevent premature aging by stimulating the growth of collagen. A boost in collagen can help improve skin elasticity and firmness. This facial includes an exfoliating mask, light extractions, and a final soothing mask.",
       "cost": "60 Minutes/ $175"
     },
     {
-      "image": "../../images/service10.jpeg",
+      "image": "../../images/service10.jpg",
       "title": "The Williamsburg Gentleman’s Facial",
       "description": "Every day your skin is fighting a losing battle against stress, sun damage, razor burns and environmental pollution. Despite your efforts to stay fit and eat healthy, the aging process on your face is accelerating. To combat this unnecessary damage, an assessment of your skin will be conducted to better understand your goals before beginning any restorative work. Your customized facial includes a deep cleansing, gentle pore extractions where needed, custom mask and a relaxing face, neck, and scalp massage to nourish the skin, stimulate circulation and ease tension and stress. Best for men who want visible results, healthier skin, and always want to feel their very best.",
       "cost": "60 Minutes/$165"
     },
     {
-      "image": "../../images/service11.jpeg",
+      "image": "../../images/service11.jpg",
       "title": "Back Facial",
       "description": "Don't leave your back behind. This is a facial for your back! It is relaxing and renewing. This is the only way to get a deep clean and thorough exfoliation in such a hard-to-reach place.",
       "cost": "60 Minutes/ $120"
     },
     {
-      "image": "../../images/service12.jpeg",
+      "image": "../../images/service12.jpg",
       "title": "Hand Peel",
       "description": "Because your hands deserve as much attention as your face, the Environ Hand Peel is a perfect add-on to any of our skincare treatments. Reverse tell-tale signs of aging, neglect, and sun-damage on your hands. Peels are one of the best treatments to exfoliate the skin, target skin imperfections, age spots and return a youthful glow. Your hand peel will be finalized with the Environ Mela-fade serum.",
       "cost": "15 Minutes/ $35"
