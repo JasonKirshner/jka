@@ -58,7 +58,7 @@ button {
   font-family: 'Roboto', sans-serif;
 }
 
-.LazyLoad.is-visible .image {
+.is-loaded .image {
   animation: .7s cubic-bezier(0,.6,.44,.99) load-image;
 }
 
