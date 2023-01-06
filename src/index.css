@@ -37,7 +37,7 @@ h1, h2, h3, h4, p {
 
 .h2, h2 {
   font-size: 35px;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .h3, h3 {
@@ -51,8 +51,8 @@ h1, h2, h3, h4, p {
 }
 
 .p-cursive {
-  font-size: 32px;
-  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 28px;
+  font-family: 'Martel', serif;
 }
 
 button {
