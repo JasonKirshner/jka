@@ -5,6 +5,7 @@ import AboutMe from './components/AboutMe/AboutMe'
 import Environ from './components/Environ/Environ'
 import Hero from './components/Hero/Hero'
 import Services from './components/Services/Services'
+import Instagram from './components/instagram/Instagram';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <div class="main-content">
         <Services />
         <AboutMe />
+        <Instagram />
         <Environ />
       </div>
       <Footer />
