@@ -40,7 +40,7 @@ const Environ = () => {
             src="../../images/environ.jpeg"
             alt="Environ products"
             beforeLoad={() => setIsLoaded(true)}
-            threshold={-200}
+            threshold={-175}
           />
         </div>
       </div>

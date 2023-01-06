@@ -15,7 +15,7 @@ const AboutMe = () => {
             src="/images/self_portrait.jpeg" 
             alt="Self Portrait for About Me section" 
             beforeLoad={() => setIsLoaded(true)}
-            threshold={-200}
+            threshold={-175}
           />
         </div>
         <div className="aboutme-text">
