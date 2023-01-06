@@ -37,7 +37,22 @@
   }
 }
 
-@media(max-width: 600px) {
+@media(min-width: 600px) {
+  .hero-title {
+    display: none;
+  }
+}
+
+@media(max-width: 599px) {
+  .hero::before {
+    content: '';
+    z-index: 2;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    position: absolute;
+    height: 100%;
+  }
+
   .hero::after {
     padding-bottom: 80%;
   }

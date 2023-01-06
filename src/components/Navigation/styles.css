@@ -200,3 +200,28 @@ header {
     margin-right: 30px;
   }
 }
+
+@media(max-width: 768px) {
+  .booknow-btn {
+    margin-right: 15px;
+    padding: 8px 17px;
+  }
+
+  .title-logo {
+    width: 50px;
+  }
+}
+
+@media(min-width: 600px) {
+  .header-title-text--mobile {
+    text-align: center;
+    display: none;
+    margin-left: 0;
+  }
+}
+
+@media(max-width: 599px) {
+  .header-title-text--desktop {
+    display: none;
+  }
+}
