@@ -4,7 +4,7 @@ import LazyLoad from 'react-lazy-load'
 const AboutMe = () => {
   return (
     <div class="about-me container">
-      <h2 class="aboutme-title">About Me</h2>
+      <h2 class="aboutme-title">MEET JOANNA</h2>
       <div class="aboutme-wrapper">
         <div class="aboutme-image-wrapper">
           <LazyLoad offset={-300}>
@@ -43,7 +43,6 @@ const AboutMe = () => {
             Let us take the next step together in achieving the radiant, youthful skin you have
             always desired.
           </p>
-          <p class="aboutme-attribute">- J. Kirshner Skin Care</p>
         </div>
       </div>
     </div>
