@@ -27,6 +27,8 @@ const Navigation = () => {
       top: aboutMe.offsetTop - (navBarHeight.current + 10),
       behavior: 'smooth'
     })
+
+    toggleMenu()
   }
 
   const scrollToServices = () => {
@@ -36,6 +38,8 @@ const Navigation = () => {
       top: services.offsetTop - (navBarHeight.current + 10),
       behavior: 'smooth'
     })
+
+    toggleMenu()
   }
 
   const scrollToEnviron = () => {
@@ -45,6 +49,8 @@ const Navigation = () => {
       top: environ.offsetTop - (navBarHeight.current + 10),
       behavior: 'smooth'
     })
+
+    toggleMenu()
   }
 
   const addAnimClass = () => {
