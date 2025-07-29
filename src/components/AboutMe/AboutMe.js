@@ -12,7 +12,7 @@ const AboutMe = () => {
         <div className={"aboutme-image-wrapper" + (isLoaded ? ' is-loaded' : '')}>
           <LazyLoadImage
             className="aboutme-image image"
-            src="/images/self_portrait.jpeg" 
+            src="/images/self_portrait.jpg" 
             alt="Self Portrait for About Me section" 
             beforeLoad={() => setIsLoaded(true)}
             threshold={-175}
