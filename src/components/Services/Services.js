@@ -6,6 +6,7 @@ const Services = () => {
   return (
     <div className="services-container container">
       <h2 className="services-title">SERVICES</h2>
+      <p className="services-discalimer">* Prices may vary by location</p>
       <div className="services">
         {servicesArr.services.map((service, i) =>
           (
