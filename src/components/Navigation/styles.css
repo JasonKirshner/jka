@@ -138,17 +138,12 @@ header {
 }
 
 @media(min-width: 967px) {
-  .booknow-btn {
+  .booknow-btn-desktop {
     margin-left: 30px;
-    transition: background-color 0.3s ease-in-out;
   }
 
   .booknow-btn-mobile {
     display: none;
-  }
-
-  .booknow-btn:hover {
-    background-color: rgb(156, 139, 88, 0.9);
   }
 
   .nav-menu-mobile-wrapper {
@@ -196,15 +191,14 @@ header {
     max-height: 326px;
   }
 
-  .booknow-btn {
+  .booknow-btn-mobile {
     margin-right: 30px;
   }
 }
 
 @media(max-width: 768px) {
-  .booknow-btn {
+  .booknow-btn-mobile {
     margin-right: 15px;
-    padding: 8px 17px;
   }
 
   .title-logo {

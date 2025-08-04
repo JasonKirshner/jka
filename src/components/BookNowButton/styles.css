@@ -1,0 +1,56 @@
+.booknow-btn {
+  padding: 10px 20px;
+  background-color: #9c8b58;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.booknow-btn--alt {
+  background-color: transparent;
+  color: white;
+  font-size: 22px;
+  position: relative;
+}
+
+.booknow-btn--alt::after {
+  content: '';
+  position: absolute;
+  background-color: white;
+  width: 30px;
+  height: 1px;
+  top: 50%;
+  right: 0;
+  transform: translate(20px, -50%);
+}
+
+.booknow-btn--alt::before {
+  content: '';
+  position: absolute;
+  background-color: white;
+  width: 30px;
+  height: 1px;
+  top: 50%;
+  left: 0;
+  transform: translate(-20px, -50%);
+}
+
+.booknow-btn:hover {
+  background-color: rgb(169, 151, 95);
+}
+
+@media(min-width: 967px) {
+  .booknow-btn {
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .booknow-btn--alt:hover {
+    background-color: transparent;
+  }
+}
+
+@media(max-width: 768px) {
+  .booknow-btn {
+    padding: 8px 17px;
+  }
+}
