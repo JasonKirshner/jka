@@ -1,0 +1,74 @@
+.addons-title {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.addons-wrapper {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  gap: 20%;
+  justify-content: space-between;
+}
+
+.addons-list {
+  list-style: none;
+  width: 100%;
+}
+
+.addon-item {
+  font-size: 1.1rem;
+  color: #444;
+  padding: 16px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addon-item:last-child {
+  border-bottom: none;
+}
+
+.addons-image-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  overflow: hidden;
+}
+
+.addons-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.addons-image-wrapper::after {
+  content: '';
+  display: block;
+  padding-bottom: 93%;
+}
+
+.addons-price {
+  font-weight: 600;
+  color: #6a4b9e;
+  margin-left: 24px;
+}
+
+@media (max-width: 968px) {
+  .addons-container {
+    padding: 16px;
+  }
+  
+  .addons-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .addons-image-wrapper {
+    display: none;
+  }
+}
