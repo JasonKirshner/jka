@@ -31,7 +31,8 @@ h1, h2, h3, h4, p {
   font-size: 96px;
   font-weight: 300;
   text-shadow: black 2px 3px 2px;
-  font-family: 'Martel', serif;
+  font-family: "Playwrite AU QLD", cursive;
+  font-weight: 100;
 }
 
 .h2, h2 {
@@ -51,7 +52,8 @@ h1, h2, h3, h4, p {
 
 .p-cursive {
   font-size: 28px;
-  font-family: 'Martel', serif;
+  font-family: "Playwrite AU QLD", cursive;
+  font-weight: 100;
 }
 
 button {
@@ -76,7 +78,7 @@ button {
 
 @media(max-width: 968px) {
   h1, .h1 {
-    font-size: 56px;
+    font-size: 65px;
   }
 
   .h3, h3 {
