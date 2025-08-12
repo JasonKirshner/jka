@@ -137,7 +137,7 @@ header {
   }
 }
 
-@media(min-width: 967px) {
+@media(min-width: 1013px) {
   .booknow-btn-desktop {
     margin-left: 30px;
   }
@@ -155,7 +155,7 @@ header {
   }
 }
 
-@media(max-width: 968px) {
+@media(max-width: 1012px) {
   .booknow-btn-desktop {
     display: none;
   }

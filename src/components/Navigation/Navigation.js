@@ -43,6 +43,17 @@ const Navigation = () => {
     toggleMenu()
   }
 
+  const scrollToAddOns = () => {
+    const addOns = document.querySelector('.addons-section')
+
+    window.scrollTo({
+      top: addOns.offsetTop - (navBarHeight.current + 10),
+      behavior: 'smooth'
+    })
+
+    toggleMenu()
+  }
+
   const scrollToEnviron = () => {
     const environ = document.querySelector('.environ')
 
@@ -78,6 +89,9 @@ const Navigation = () => {
           <ul className="nav-items">
             <li className="nav-item">
               <button onClick={scrollToServices} className='nav-item-link h3'>Services</button>
+            </li>
+            <li className="nav-item">
+              <button onClick={scrollToAddOns} className='nav-item-link h3'>Add-Ons</button>
             </li>
             <li className="nav-item">
               <button onClick={scrollToAboutMe} className='nav-item-link h3'>About</button>
